@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import IconLink from "./IconLink";
 import { Box } from "@mui/material";
+import {info} from "../../info/Info";
 
 
 function PortfolioBlock(props) {
@@ -11,8 +11,8 @@ function PortfolioBlock(props) {
    const renderTech2 = tech2 ? (
       <>
          <span style={{ margin: '0 10px' }}></span>
-         <Box p={1} color={'rgb(47, 46, 127)'} border={'2px solid rgb(66, 64, 178)'} borderRadius={'25px'} style={{ background: 'linear-gradient(135deg, rgb(95, 92, 255), rgb(226, 238, 255))'}}>
-            <p>{tech2}</p>
+         <Box p={1} color={'rgb(47, 46, 127)'} border={'2px solid rgb(120, 120, 220)'} borderRadius={'25px'}>
+         <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{tech2}</span>
          </Box>
       </>
    ) : null;
@@ -40,9 +40,9 @@ function PortfolioBlock(props) {
          </Box>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'1.5rem'} alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box display={'flex'} flexDirection={'line'}>
-            <Box p={1} color={'rgb(47, 46, 127)'} border={'2px solid rgb(66, 64, 178)'} borderRadius={'25px'} style={{ background: 'linear-gradient(135deg, rgb(95, 92, 255), rgb(226, 238, 255))'}}>
-                  <p>{tech1}</p>
-               </Box>
+            <Box p={1} color={'rgb(47, 46, 127)'} border={'2px solid rgb(120, 120, 220)'} borderRadius={'25px'}>
+            <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{tech1}</span>
+            </Box>
                {renderTech2}
             </Box>
          </Box>
