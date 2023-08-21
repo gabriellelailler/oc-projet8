@@ -56,7 +56,7 @@ export const info = {
         },
 
     ],
-    bio: "Je suis Gabrielle Lailler, développeuse web. Après des études à HEC et une expérience en tant que responsable des opérations dans une startup pharmaceutique, j'ai choisi de me former en tant que développeuse web via OpenClassroom.",
+    bio: "Je suis Gabrielle Lailler, développeuse web. Après des études à HEC et une expérience de responsable des opérations dans une startup pharmaceutique, j'ai choisi de me former au développement web via OpenClassroom.",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'html5', 'css3', 'figma'],
