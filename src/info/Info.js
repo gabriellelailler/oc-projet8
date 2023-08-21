@@ -99,7 +99,7 @@ export const info = {
             image: mock2
         },
         {
-            title: "Nina Carducci, photographe",
+            title: "Nina Carducci",
             tech1: "Debug",
             tech2: "SEO",
             description: "Pour le compte de Nina Carducci, photographe, j'ai fait le debug de son portfolio ainsi que l'amélioration de son référencement (SEO, accessibilité etc.)",
