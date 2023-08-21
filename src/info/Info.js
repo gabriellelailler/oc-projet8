@@ -84,27 +84,40 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "Booki - HTML, CSS",
+            title: "Booki",
+            tech1: "HTML",
+            tech2: "CSS",
             source: "https://github.com/gabriellelailler/oc-projet2",
+            description: "Dans le cadre de la formation WebDev d'OpenClassroom, ma mission était d'intégrer la maquette du site de l'agence de voyages Booki en HTML et CSS.",
             image: mock1
         },
         {
-            title: "Sophie Bluel - Javascript",
+            title: "Sophie Bluel",
+            tech1: "Javascript",
             source: "https://github.com/gabriellelailler/oc-projet3",
+            description: "Ce projet m'a permis de découvrir le JavaScript pour animer le portfolio de la photographe Sophie Bluel. J'ai pratiqué les requêtes HTTP avec fetch et manipulé le DOM.",
             image: mock2
         },
         {
-            title: "Nina Carducci - Debug, SEO",
+            title: "Nina Carducci, photographe",
+            tech1: "Debug",
+            tech2: "SEO",
+            description: "Pour le compte de Nina Carducci, photographe, j'ai fait le debug de son portfolio ainsi que l'amélioration de son référencement (SEO, accessibilité etc.)",
             source: "https://github.com/gabriellelailler/oc-projet5",
             image: mock3
         },
         {
-            title: "Kasa - React",
+            title: "Kasa",
+            tech1: "React",
+            tech2: "Sass",
+            description: "J'ai effectué la refonte en React du site Kasa, spécialisé en location immobilière. Je me suis familiarisée avec les composants fonctionnels, les props etc.",
             source: "https://github.com/gabriellelailler/oc-projet6",
             image: mock4
         },
         {
-            title: "Mon Vieux Grimoire - NodeJS",
+            title: "Mon Vieux Grimoire",
+            tech1: "NodeJS",
+            description: "J'ai été chargée de créer l'API et le serveur pour alimenter le front-end du site 'Mon Vieux Grimoire' : log in, log out des utilisateurs ; ajout, modification et notation de livres",
             source: "https://github.com/gabriellelailler/oc-projet7",
             image: mock5
         }
